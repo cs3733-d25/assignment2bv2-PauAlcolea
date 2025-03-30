@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+}
+
+h1, h2, h3 {
+  color: #4ecca3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-top: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+h2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 60px;
+  background-color: #4ecca3;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.hobby {
+  margin-bottom: 60px;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+table.collapse {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 25px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+table.collapse caption {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #4ecca3;
+}
+
+table.collapse th, table.collapse td {
+  border: 1px solid #333;
+  padding: 14px;
+  text-align: left;
+}
+
+table.collapse th {
+  background-color: #0d3b2c;
+  color: #4ecca3;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+table.collapse tr:nth-child(even) {
+  background-color: #1e1e1e;
+}
+
+form {
+  background-color: #1e1e1e;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin-top: 30px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #4ecca3;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #4ecca3;
+  box-shadow: 0 0 0 3px rgba(78, 204, 163, 0.1);
+}
+
+input[type="checkbox"], input[type="radio"] {
+  accent-color: #4ecca3;
+}
+
+button {
+  background-color: #4ecca3;
+  color: #121212;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #6ee7b7;
+  transform: translateY(-1px);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
