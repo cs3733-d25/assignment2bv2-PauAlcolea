@@ -6,10 +6,16 @@ import Form2 from './Form2';
 const Hobby2: React.FC = () => {
   return (
     <div className="hobby">
-      <h2>Placeholder Hobby</h2>
-      <img src="/placeholder.jpg" alt="Placeholder Hobby" width="640" />
+      <h2>Art and Museums</h2>
+      <img src="/public/museum.jpg" alt="Placeholder Hobby" width="640" />
       <p>
-        Placeholder description
+          My interest in art has begun quite recently,
+          after going to museums in Worcester, Boston and other cities.
+          Museums are always an amazing way for me to relax and reflect,
+          and I think that that has influenced my interest in the actual
+          art they display.
+          I have recently been studying art from the XX century
+          more specifically by reading from an art book at my house
       </p>
       
       <List2 />

@@ -3,36 +3,36 @@ import React from 'react';
 const Table2: React.FC = () => {
   return (
     <div className="table">
-      <h2>Placeholder Table</h2>
+      <h2>Some Paintings and Drawings of the 20th and 19th Centuries</h2>
       <table className="collapse">
-        <caption>Placeholder Caption</caption>
+        <caption>Artwork of Three Artists</caption>
         <thead>
           <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
+            <th>Pablo Picasso</th>
+            <th>Henri Matisse</th>
+            <th>Claude Monet</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Item 1A</td>
-            <td>Item 1B</td>
-            <td>Item 1C</td>
+            <td>Guernica</td>
+            <td>Jazz</td>
+            <td>Poppy Field</td>
           </tr>
           <tr>
-            <td>Item 2A</td>
-            <td>Item 2B</td>
-            <td>Item 2C</td>
+            <td>The Old Guitarist</td>
+            <td>Window at Tangier</td>
+            <td>Impression, Sunrise</td>
           </tr>
           <tr>
-            <td>Item 3A</td>
-            <td>Item 3B</td>
-            <td>Item 3C</td>
+            <td>Don Quijote</td>
+            <td>Dance</td>
+            <td>Woman with a Parasol</td>
           </tr>
           <tr>
-            <td>Item 4A</td>
-            <td>Item 4B</td>
-            <td>Item 4C</td>
+            <td>Portrait of Gertrude Stein</td>
+            <td>Two Dancers</td>
+            <td>Water Lillies</td>
           </tr>
         </tbody>
       </table>

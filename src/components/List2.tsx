@@ -4,13 +4,13 @@ import '../styles/list.css';
 const List2: React.FC = () => {
   return (
     <div className="list">
-      <h2>Five things About Placeholder</h2>
+      <h2>Great XX Century Artists</h2>
       <ul>
-        <li>Placeholder item 1</li>
-        <li>Placeholder item 2</li>
-        <li>Placeholder item 3</li>
-        <li>Placeholder item 4</li>
-        <li>Placeholder item 5</li>
+        <li>Paul Cézanne</li>
+        <li>Henri Matisse</li>
+        <li>Pablo Picasso</li>
+        <li>Piet Mondrian</li>
+        <li>Mark Rothko</li>
       </ul>
     </div>
   );
